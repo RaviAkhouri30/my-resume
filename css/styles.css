@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-conatiner {
+    background-color: #E4F9F5;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-conatiner {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-conatiner {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.angular {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.my-profile-pic {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 155px;
+    object-fit: cover;
+    margin-left: 10px;
+    object-position: 0px -2px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: solid 1px black;
+}
+
+.crop-img {
+    position: relative;
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+}
