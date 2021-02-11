@@ -1,19 +1,53 @@
 body {
     margin: 0;
     font-family: 'Merriweather', sans-serif;
+    color: #40514e;
 }
 
 h1 {
-    margin-top: 0;
+    font-size: 5.625rem;
+    /* equivalent to 90px     100% == 16px em can be used to dynamic font size , 1em == 16px*/
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    line-height: 1;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    margin-top: 0;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #66BFBF;
+}
+
+footer p {
+    color: #EAF6F6;
+}
+
+hr {
+    border-style: dotted none none;
+    /* border-style: none;
+    border-top-style: dotted; */
+    width: 4%;
+    border-width: 4px;
+    border-color: #66BFBF;
+}
+
+p {
+    line-height: 2;
 }
 
 .top-conatiner {
@@ -23,17 +57,11 @@ h3 {
     position: relative;
 }
 
-.middle-conatiner {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+.middle-container {
+    margin: 100px auto;
 }
 
-.bottom-conatiner {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-}
+.bottom-conatiner {}
 
 .angular {
     text-decoration: underline;
@@ -42,23 +70,22 @@ h3 {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
 .my-profile-pic {
-    display: inline-block;
+    display: block;
     position: relative;
     width: 150px;
     height: 155px;
     object-fit: cover;
-    margin-left: 10px;
-    object-position: 0px -2px;
+    object-position: 0px 0px;
     border-radius: 50%;
     background-color: blueviolet;
     border: solid 1px black;
@@ -66,7 +93,89 @@ h3 {
 
 .crop-img {
     position: relative;
+    display: block;
+    width: 150px;
+    height: 155px;
+    margin: 50px auto;
+}
+
+.profile {
+    display: block;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.short-description {
+    margin-top: 5px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-row-img-code {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row-img-chilli {
+    width: 25%;
+    float: right;
+    /* clear is anti float */
+    margin-left: 30px;
+}
+
+.skill-row-chilli-desc {
+    /* clear: right; */
+}
+
+.btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -webkit-gradient(top bottom, #66BFBF, #11999E);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
     display: inline-block;
-    max-width: 100px;
-    max-height: 100px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px auto;
+    outline: none;
+}
+
+.btn:hover {
+    border: none;
+    background: #66BFBF;
+    text-decoration: none;
+    margin: 10px auto;
+    outline: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #11999E;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
 }
