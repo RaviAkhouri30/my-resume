@@ -195,3 +195,107 @@ p {
     font-size: 0.75rem;
     padding: 10px 0px;
 }
+
+@media only screen and (max-width: 500px) and (min-width: 425px) {
+    .mountain-pic-class {
+        width: 100%;
+    }
+    .bottom-cloud {
+        left: 16.5rem;
+        bottom: 240px;
+    }
+    .top-cloud {
+        right: 16.5rem;
+        top: 40px;
+    }
+    hr {
+        margin: 50px auto;
+    }
+    .skill-row {
+        width: 80%;
+    }
+    .intro {
+        width: 80%;
+    }
+    .contact-me {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 625px) {
+    .mountain-pic-class {
+        width: 100%;
+    }
+    .bottom-cloud {
+        left: 24.5rem;
+        bottom: 380px;
+    }
+    .top-cloud {
+        right: 24.5rem;
+        top: 40px;
+    }
+    hr {
+        margin: 50px auto;
+    }
+    .skill-row {
+        width: 80%;
+    }
+    .intro {
+        width: 80%;
+    }
+    .contact-me {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 624px) and (min-width: 501px) {
+    .mountain-pic-class {
+        width: 100%;
+    }
+    .bottom-cloud {
+        left: 18.5rem;
+        bottom: 280px;
+    }
+    .top-cloud {
+        right: 18.5rem;
+        top: 40px;
+    }
+    hr {
+        margin: 50px auto;
+    }
+    .skill-row {
+        width: 80%;
+    }
+    .intro {
+        width: 80%;
+    }
+    .contact-me {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .mountain-pic-class {
+        width: 100%;
+    }
+    .bottom-cloud {
+        left: 9.5rem;
+        bottom: 200px;
+    }
+    .top-cloud {
+        right: 8.5rem;
+        top: 40px;
+    }
+    hr {
+        margin: 50px auto;
+    }
+    .skill-row {
+        width: 80%;
+    }
+    .intro {
+        width: 80%;
+    }
+    .contact-me {
+        width: 80%;
+    }
+}
